@@ -52,10 +52,15 @@ function App() {
   return (
     <>
       <div className="App">
-        {member == null ? <Login inputs={inputs} setInputs={setInputs} login={login} setLogin={setLogin} /> : null}
+        {member == null ? (
+          <Login inputs={inputs} setInputs={setInputs} login={login} setLogin={setLogin} />
+        ) : null}
         {eventAlert === true ? (
           <div className="main-alert" id="sel">
-            <span>10월 신제품 특가 ~20% 할인 행사 | 회원가입 시 모든 카테고리에 사용 가능한 10%쿠폰 추가 증정 </span>
+            <span>
+              10월 신제품 특가 ~20% 할인 행사 | 회원가입 시 모든 카테고리에 사용 가능한 10%쿠폰 추가
+              증정{" "}
+            </span>
             <button
               className="alert-btn"
               onClick={() => {
@@ -116,13 +121,28 @@ function App() {
                 <div>
                   <Carousel fade>
                     <Carousel.Item>
-                      <img className="d-block w-100 main-banner" src="/img/banner1.jpg" alt="banner1" style={{ height: "10%" }} />
+                      <img
+                        className="d-block w-100 main-banner"
+                        src="/img/banner1.jpg"
+                        alt="banner1"
+                        style={{ height: "10%" }}
+                      />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <img className="d-block w-100 main-banner" src="/img/banner1.jpg" alt="banner1" style={{ height: "10%" }} />
+                      <img
+                        className="d-block w-100 main-banner"
+                        src="/img/banner1.jpg"
+                        alt="banner1"
+                        style={{ height: "10%" }}
+                      />
                     </Carousel.Item>
                     <Carousel.Item>
-                      <img className="d-block w-100 main-banner" src="/img/banner1.jpg" alt="banner1" style={{ height: "10%" }} />
+                      <img
+                        className="d-block w-100 main-banner"
+                        src="/img/banner1.jpg"
+                        alt="banner1"
+                        style={{ height: "10%" }}
+                      />
                     </Carousel.Item>
                   </Carousel>
                   <hr />
@@ -176,7 +196,11 @@ function App() {
                       높은가격순
                     </button>
                   </div>
-                  <div className="row item-list">{fu.map((listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />)}</div>
+                  <div className="row item-list">
+                    {fu.map(
+                      (listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />
+                    )}
+                  </div>
                   <button
                     className="see-more-btn"
                     onClick={() => {
@@ -223,7 +247,11 @@ function App() {
                     </button>
                   </div>
 
-                  <div className="row item-list">{ki.map((listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />)}</div>
+                  <div className="row item-list">
+                    {ki.map(
+                      (listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />
+                    )}
+                  </div>
                   <button
                     className="see-more-btn"
                     onClick={() => {
@@ -269,7 +297,11 @@ function App() {
                       높은가격순
                     </button>
                   </div>
-                  <div className="row item-list">{fa.map((listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />)}</div>
+                  <div className="row item-list">
+                    {fa.map(
+                      (listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />
+                    )}
+                  </div>
                   <button
                     className="see-more-btn"
                     onClick={() => {
@@ -315,7 +347,11 @@ function App() {
                       높은가격순
                     </button>
                   </div>
-                  <div className="row item-list">{la.map((listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />)}</div>
+                  <div className="row item-list">
+                    {la.map(
+                      (listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />
+                    )}
+                  </div>
                   <button
                     className="see-more-btn"
                     onClick={() => {
@@ -361,7 +397,11 @@ function App() {
                       높은가격순
                     </button>
                   </div>
-                  <div className="row item-list">{pl.map((listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />)}</div>
+                  <div className="row item-list">
+                    {pl.map(
+                      (listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />
+                    )}
+                  </div>
                   <button
                     className="see-more-btn"
                     onClick={() => {
@@ -407,7 +447,11 @@ function App() {
                       높은가격순
                     </button>
                   </div>
-                  <div className="row item-list">{an.map((listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />)}</div>
+                  <div className="row item-list">
+                    {an.map(
+                      (listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />
+                    )}
+                  </div>
                   <button
                     className="see-more-btn"
                     onClick={() => {
@@ -453,7 +497,11 @@ function App() {
                       높은가격순
                     </button>
                   </div>
-                  <div className="row item-list">{sp.map((listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />)}</div>
+                  <div className="row item-list">
+                    {sp.map(
+                      (listItem, i) => i < btnCount && <ItemList listItem={listItem} key={i} />
+                    )}
+                  </div>
                   <button
                     className="see-more-btn"
                     onClick={() => {
