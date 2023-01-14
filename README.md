@@ -3,7 +3,7 @@
 ### 다양한 인테리어 소품과 생활 용품을 볼 수 있는 웹사이트
 
 <br/>
-<p align="center"><img width="50%" src="public\img\play.gif"></p>
+<p align="center"><img width="60%" src="public\img\play.gif"></p>
 
 #### [노션](https://tar-tuba-6c9.notion.site/Project-2-HOUSEWARMING-3523b7ba43e541bbbf08219c04b0132a)
 
@@ -11,7 +11,7 @@
 
 ## 기술 스택
 
-<hr/><br/>
+<br/>
   <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
   <img src="https://img.shields.io/badge/JS(ES6)-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
@@ -24,7 +24,7 @@
 
 ## 구현 기능
 
-<hr/><br/>
+<br/>
 
 ### 1. Login / Logout
 
